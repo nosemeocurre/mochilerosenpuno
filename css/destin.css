@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background: #177DC0;
+	color: #4A235A ;
+}
+.header a{
+	color: #F9F212 ;
+	text-decoration: none;
+}
+.logo{
+	letter-spacing: 6px;
+	font-size: 1.7em;
+}
+.logo-de-puno{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem 13rem; 
+}
+.nave ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.nave ul li{
+	display: inline-block;
+}
+.nave ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-right: 5px; 
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: cursive;
+}
+.nave ul li a:hover{
+	background: black;
+}
+/*gggggg*/
+
+.title{
+	text-align: center;
+	font-size: 35px;
+	color: #6a6a6a;
+	color: white;
+	font-family: cursive;
+	background: #0B5345;
+}
+.destino{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	background-image: url(imgn/puno-tours.jpg);
+}
+.destino .card{
+	width: 600px;
+	height: 450px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+	background: #C0C0C0;
+}
+.destino .card img{
+	width: 330px;
+	height: 220px;
+}
+.destino .card h3{
+	font-weight: 600;
+	font-size: 25px;
+	background: #CD5C5C;
+	color: white;
+}
+.destino .card p{
+	padding: 0 1rem;
+	font-size: 17px;
+	font-weight: 300;
+	color: #000080; 
+	font-family: cursive;
+}	
+/* final*/
+footer{
+	font-size: 15px;
+	background: black;
+	color: white;
+	width: 100%;
+	height: 50%;
+}

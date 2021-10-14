@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background: #177DC0;
+	color: #4A235A ;
+}
+.header a{
+	color: #F9F212 ;
+	text-decoration: none;
+}
+.logo{
+	letter-spacing: 6px;
+	font-size: 1.7em;
+}
+.logo-de-puno{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem 13rem; 
+}
+.nave ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.nave ul li{
+	display: inline-block;
+}
+.nave ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-right: 5px; 
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: cursive;
+}
+.nave ul li a:hover{
+	background: black;
+}
+/*ddddd*/
+.floro{
+	margin: auto;
+	float: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 1rem;
+	background: #177DC0; 
+	position: relative;
+	text-align: center;
+}
+.texto{
+	position: absolute;
+	top: 198px;
+	left: 620px;
+	color: #FFFFFF ;
+	font-size: 40px;
+	font-family: serif;
+}
+
+/*festin*/
+.title{
+	text-align: center;
+	font-size: 35px;
+	color: #008000;
+	margin-top: 2px;
+	font-weight: 100;
+}
+.fiesta-puno{
+	width: 100%
+	max-width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+.fiesta-puno .fiesta{
+	width: 390px;
+	height: 290px;
+	border-radius: 8px;
+	box-shadow: 0 2px rgba(0,0,0,0.2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+.fiesta-puno .fiesta img{
+	width: 330px;
+	height: 220px;
+}
+.fiesta-puno .fiesta h3{
+	font-weight: 600;
+	font-size: 18px;
+	color: #2497F1;
+}
+/*final*/
+.visita{
+	position: relative;
+	top: 150;
+	margin: auto;
+	width: 880px;
+	height: 450px;
+	background-image: url(imgn/titi.jpg);
+	background-size: 100% 100%; 
+	overflow: hidden;
+	color: #FFFFFF ;
+	font-size: 23px;
+}
+p{
+	font-size: 23px;
+	hyphens: break-word;
+	word-break: break-word;
+	text-align: center;
+	color: #9FF75E ;
+
+}
+/* final*/
+footer{
+	font-size: 15px;
+	background: black;
+	color: white;
+	width: 100%;
+	height: 50%;
+}
+
+
+
